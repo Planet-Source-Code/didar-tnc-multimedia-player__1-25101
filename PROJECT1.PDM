@@ -1,0 +1,145 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|STARTUP]
+Icon1="General Shorcutbar.exe"
+Title1=Icon6
+StartIn1=$(AppPath)
+Key1=Icon6
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\current pro\T Media 4.2(Mp3 Support)
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+Xbase=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Standard Setup Package 1|Files Found]
+Operating Manual.txt=C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\Operating Manual.txt
+
+[Package|Standard Setup Package 1|Files Released]
+msrdo20.dll=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\amovie.ocx=
+C:\WINDOWS\SYSTEM\MCIWNDX.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+operating manual.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MCIWNDX.OCX=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\TNC4.2.exe=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\Operating Manual.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\ARCHIVE\Visual Basic 5.0 program\Tutorial 3\Copy of Shortcutbar\General Shorcutbar.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\amovie.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\DESKTOP\TMedia Driver2\TNC3.0.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCIWNDX.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\DESKTOP\TMedia Driver2\Operating Manual.txt=$(AppPath)
+C:\WINDOWS\DESKTOP\TMedia Driver4.2\TNC4.2.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\TMedia Driver4.2\Operating Manual.txt=$(AppPath)
+C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\TNC4.2.exe=$(AppPath)
+C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\Operating Manual.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\ARCHIVE\Visual Basic 5.0 program\Tutorial 3\Copy of Shortcutbar\General Shorcutbar.exe=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver2\TNC3.0.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver2\Operating Manual.txt=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver4.2\TNC4.2.exe=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver4.2\Operating Manual.txt=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\TNC4.2.exe=Yes
+C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)\Operating Manual.txt=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=TNC Multimedia 4.2
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=TNC Multimedia
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|TNC Multimedia]
+Icon1=TNC4.2.exe
+Title1=TNC Multimedia 4.2 (Mp3 Support)
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2="Operating Manual.txt"
+Title2=Read Me
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\current pro\T Media 4.2(Mp3 Support)
+ProjectFolder=C:\WINDOWS\DESKTOP\TMedia Driver4.2(Skin)
+ServerSideCab=
+File1=d:\current pro\T Media 4.2(Mp3 Support)\setup.exe
+File2=d:\current pro\T Media 4.2(Mp3 Support)\Setup.Lst
+File3=d:\current pro\T Media 4.2(Mp3 Support)\TNC4.2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
